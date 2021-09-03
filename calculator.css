@@ -2,7 +2,7 @@
 /* CSS Document */
 .container{
 	display: table-footer-group;
-	alignment-adjust:central;
+	align-items:central;
 	text-align:center;
 	height:60%;
 	width:90%;
@@ -12,7 +12,7 @@
 	padding:8px 8px 20px 8px;
 	margin:20px auto;
 	background-image:url(../../py4e/file00/pngtree-small-fresh-sweet-candy-poster-background-material-image_141955.jpg);
-	border:solid 2% #666;
+	border:solid 1% rgb(99, 210, 238);
 	border-radius:1%;
 	box-shadow:-3px 3px 7px #FFFFCC;
 }
@@ -30,10 +30,11 @@
 		width:45px;
 		height:45px;
 		font-weight:bold;
+		padding:10px;
 		margin-left:3%;
 		margin-right:3%;
 		font-size:120%;
-		border:solid 1% #666;
+		border:solid 1% #9bf8ec;
 		
 }
 .mathButtons{ border:solid 1% #000;
@@ -41,7 +42,7 @@
 			border-radius:2px;
 			background-color:#CCC}
 .digits{ border:solid 1% #000;
-		text-shadow:#333;
+		text-shadow:rgb(96, 171, 206);
 		border-radius:2px;
 		background-color:#CCC}
 .button{ border:solid 1% #000;
